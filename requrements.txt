@@ -1,0 +1,9 @@
+> Python 3.x
+> PyTorch
+> torchvision
+> Pillow (for image loading)
+> CUDA (optional, for GPU training)
+
+Install dependencies using pip:
+
+> pip install torch torchvision pillow

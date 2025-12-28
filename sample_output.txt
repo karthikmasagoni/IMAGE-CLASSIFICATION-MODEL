@@ -1,0 +1,14 @@
+Enter the dataset folder path (containing 'train' and 'test'): C:\Users\ravin\OneDrive\cnn model\dataset
+Enter image size (e.g., 64 or 128): 128
+Enter batch size (e.g., 32): 32
+Enter number of epochs: 5
+Using device: cpu
+Detected classes: ['Cheetah', 'Lioness']
+Epoch [1/5] | Train Acc: 47.50% | Val Acc: 50.00%
+Epoch [2/5] | Train Acc: 50.00% | Val Acc: 57.50%
+Epoch [3/5] | Train Acc: 51.25% | Val Acc: 68.75%
+Epoch [4/5] | Train Acc: 66.25% | Val Acc: 72.50%
+Epoch [5/5] | Train Acc: 61.25% | Val Acc: 71.25%
+Model saved as adaptive_cnn_updated.pth
+Enter path of an image to predict (or leave blank to skip): C:\Users\ravin\Downloads\cheetah.jpg     
+Predicted class: Cheetah
